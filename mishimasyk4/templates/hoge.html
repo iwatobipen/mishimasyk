@@ -10,18 +10,19 @@
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/dagre.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/springy.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/build/cytoscape.min.js')}}"></script>
-
-
 {% endblock %}
 
 
 {% block content %}
+<div class="container">
 <div class="row">
- <div class="col-md-8 col-md-offset-2"  style='background-color: gray; height: 400px;'>
+ <div class="col-md-12"  style='background-color: gray;'>
+  
   <h1>Cytoscape JS!</h1>
   <div id="cy"></div>
+
  </div>
 </div>
-
+</div>
 {% endblock %}
 
