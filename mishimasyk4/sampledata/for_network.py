@@ -34,8 +34,9 @@ def make_nodes( mols ):
         node = Node( mol )
         smi = node.smi()
         mw = node.mw()
-        data = { "data" : { "molid":molid, "smi": smi }}
+        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi }}
         nodes.append( data )
+    print len(nodes)
     return nodes
 
 def make_edges( mols, cutoff=0.80 ):
@@ -43,10 +44,10 @@ def make_edges( mols, cutoff=0.80 ):
     for i in range( len( mols[:300] )):
         for j in range( i ):
             edge = Edge(mols[i], mols[j])
-            if edge.sim() >= cutoff:
+            if edge.sim() >= cutoff and edge.sim() < 1.0:
                 #print edge.sim()
-                data = { "data": { "id":str(i)+">>"+str(j),"similarity": edge.sim() ,"source": edge.source(), "target": edge.target() }}
-                edges.append( data)
+                data = { "data": { "id":str(i)+">>"+str(j),"similarity": edge.sim() ,"source": "mol_"+str(i), "target": "mol_"+str(j) }}
+                edges.append( data )
     return edges
 
 
@@ -54,8 +55,8 @@ def make_edges( mols, cutoff=0.80 ):
 if __name__=="__main__":
     mols = [mol for mol in Chem.SDMolSupplier(sys.argv[1]) ]
     nodes = make_nodes( mols )
-    edges = make_edges( mols ,cutoff=0.85)
+    edges = make_edges( mols, cutoff = 0.75 )
     data = { "nodes":nodes, "edges":edges}
-    f = open("mols.json","w")
+    f = open("../static/jsondata/mols.json","w")
     f.write(json.dumps(data, indent=4))
     f.close()

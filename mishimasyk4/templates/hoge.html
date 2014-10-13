@@ -10,20 +10,113 @@
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/dagre.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/springy.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/build/cytoscape.min.js')}}"></script>
+
+<script>
+// load JSON 
+items = []
+$.getJSON(("static/jsondata/mols.json"), function(data){
+	items = data;
+  cy.load(items);
+})
+</script>
+
+<script>
+// make network
+var cy = cytoscape({
+  container: document.getElementById('cy'),
+  ready: function(){ console.log('ready') }
+});
+
+$(function(){
+ $("#cy").cytoscape({
+  style: cytoscape.stylesheet()
+    .selector('node')
+      .css({
+        'content': 'data(molid)',
+        //'text-valign': 'center',
+        'background-color': 'blue',
+        //'text-outline-width': 2,
+        //'text-outline-color': '#888',
+        'width': '10px',
+        'height': '10px'
+      })
+    .selector('edge')
+      .css({
+        'line-color': 'blue',
+        'target-arrow-shape': 'triangle',
+      })
+    .selector(':selected')
+      .css({
+        'background-color': 'black',
+        'line-color': 'black',
+        'target-arrow-color': 'black',
+        'source-arrow-color': 'black',
+        'text-outline-color': 'black'
+      }),
+
+  layout:  {
+  name: 'arbor',
+
+  animate: true, // whether to show the layout as it's running
+  maxSimulationTime: 4000, // max length in ms to run the layout
+  fit: true, // on every layout reposition of nodes, fit the viewport
+  padding: 9, // padding around the simulation
+  boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
+  ungrabifyWhileSimulating: false, // so you can't drag nodes during layout
+
+  // callbacks on layout events
+  ready: undefined, // callback on layoutready 
+  stop: undefined, // callback on layoutstop
+
+  // forces used by arbor (use arbor default on undefined)
+  repulsion: undefined,
+  stiffness: undefined,
+  friction: undefined,
+  gravity: true,
+  fps: undefined,
+  precision: undefined,
+
+  // static numbers or functions that dynamically return what these
+  // values should be for each element
+  // e.g. nodeMass: function(n){ return n.data('weight') }
+  nodeMass: undefined, 
+  edgeLength: undefined,
+
+  stepSize: 0.1, // smoothing of arbor bounding box
+
+  // function that returns true if the system is stable to indicate
+  // that the layout can be stopped
+  stableEnergy: function( energy ){
+    var e = energy; 
+    return (e.max <= 0.5) || (e.mean <= 0.3);
+  },
+
+  // infinite layout options
+  infinite: false // overrides all other options for a forces-all-the-time mode
+},
+
+   ready: function(){
+    window.cy = this;
+},
+    });
+});
+
+</script>
+
 {% endblock %}
 
 
 {% block content %}
 
 <div class="container">
-<div class="row">
- <div class="col-md-12"  style='background-color: gray;'>
-  
-  <h1>Cytoscape JS!</h1>
-  <div id="cy"></div>
-
- </div>
+ <div class="row">
+    <h1>Cytoscape JS!</h1>
+  <div class="col-md-12"  style='background-color: lightblue; height: 600px'> 
+         <div id="cy"></div>
+    
+  </div>
 </div>
 </div>
+ 
 {% endblock %}
 
