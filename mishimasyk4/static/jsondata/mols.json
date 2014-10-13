@@ -2,6 +2,7 @@
     "nodes": [
         {
             "data": {
+                "molwt": 379.5, 
                 "id": "mol_0", 
                 "molid": 0, 
                 "smi": "COc1cc2[nH]c(C)c(CCN3CCN(c4ccccc4)CC3)c2cc1OC"
@@ -9,6 +10,7 @@
         }, 
         {
             "data": {
+                "molwt": 428.44, 
                 "id": "mol_1", 
                 "molid": 1, 
                 "smi": "COCC1OC(=O)c2coc3c2C1(C)C1=C(C3=O)C2CCC(=O)C2(C)CC1OC(C)=O"
@@ -16,6 +18,7 @@
         }, 
         {
             "data": {
+                "molwt": 428.44, 
                 "id": "mol_2", 
                 "molid": 2, 
                 "smi": "COCC1OC(=O)c2coc3c2C1(C)C1=C(C3=O)C2CCC(=O)C2(C)CC1OC(C)=O"
@@ -23,6 +26,7 @@
         }, 
         {
             "data": {
+                "molwt": 428.44, 
                 "id": "mol_3", 
                 "molid": 3, 
                 "smi": "COCC1OC(=O)c2coc3c2C1(C)C1=C(C3=O)C2CCC(=O)C2(C)CC1OC(C)=O"
@@ -30,6 +34,7 @@
         }, 
         {
             "data": {
+                "molwt": 428.44, 
                 "id": "mol_4", 
                 "molid": 4, 
                 "smi": "COCC1OC(=O)c2coc3c2C1(C)C1=C(C3=O)C2CCC(=O)C2(C)CC1OC(C)=O"
@@ -37,6 +42,7 @@
         }, 
         {
             "data": {
+                "molwt": 339.42, 
                 "id": "mol_5", 
                 "molid": 5, 
                 "smi": "[Na].CCOc1ccc(NC(=S)Nc2ccc(OCC)cc2)cc1"
@@ -44,6 +50,7 @@
         }, 
         {
             "data": {
+                "molwt": 317.35, 
                 "id": "mol_6", 
                 "molid": 6, 
                 "smi": "[Cu+2].[I-].[I-]"
@@ -51,6 +58,7 @@
         }, 
         {
             "data": {
+                "molwt": 317.35, 
                 "id": "mol_7", 
                 "molid": 7, 
                 "smi": "I[Cu]I"
@@ -58,6 +66,7 @@
         }, 
         {
             "data": {
+                "molwt": 579.69, 
                 "id": "mol_8", 
                 "molid": 8, 
                 "smi": "[Rh+3].F[B-](F)(F)F.F[B-](F)(F)F.F[B-](F)(F)F.C1=CCCC=CCC1.C1=CCCC=CCC1"
@@ -65,6 +74,7 @@
         }, 
         {
             "data": {
+                "molwt": 512.86, 
                 "id": "mol_9", 
                 "molid": 9, 
                 "smi": "C1=C[U]=[V][W]=N1"
@@ -72,6 +82,7 @@
         }, 
         {
             "data": {
+                "molwt": 344.44, 
                 "id": "mol_10", 
                 "molid": 10, 
                 "smi": "c1cc(S(c2ccncc2)(c2ccncc2)c2ccncc2)ccn1"
@@ -79,6 +90,7 @@
         }, 
         {
             "data": {
+                "molwt": 414.47, 
                 "id": "mol_11", 
                 "molid": 11, 
                 "smi": "Fc1ccc(S(c2ccc(F)cc2)(c2ccc(F)cc2)C2=CC=C(F)CC2)cc1"
@@ -86,6 +98,7 @@
         }, 
         {
             "data": {
+                "molwt": 326.48, 
                 "id": "mol_12", 
                 "molid": 12, 
                 "smi": "[Rb]N[Ra]"
@@ -93,6 +106,7 @@
         }, 
         {
             "data": {
+                "molwt": 324.49, 
                 "id": "mol_13", 
                 "molid": 13, 
                 "smi": "CCCCCCCCS(=O)C(C)Cc1ccc2c(c1)OCO2"
@@ -100,6 +114,7 @@
         }, 
         {
             "data": {
+                "molwt": 340.51, 
                 "id": "mol_14", 
                 "molid": 14, 
                 "smi": "CN([Rb])[Ra]"
@@ -107,6 +122,7 @@
         }, 
         {
             "data": {
+                "molwt": 482.25, 
                 "id": "mol_15", 
                 "molid": 15, 
                 "smi": "CN([Re])[Rf]"
@@ -114,6 +130,7 @@
         }, 
         {
             "data": {
+                "molwt": 310.29, 
                 "id": "mol_16", 
                 "molid": 16, 
                 "smi": "c1ccc(OP(Oc2ccccc2)Oc2ccccc2)cc1"
@@ -121,6 +138,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.3, 
                 "id": "mol_17", 
                 "molid": 17, 
                 "smi": "O=C(O)C(O)(C(=O)c1ccccc1)C(O)(C(=O)O)C(=O)c1ccccc1"
@@ -128,6 +146,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.3, 
                 "id": "mol_18", 
                 "molid": 18, 
                 "smi": "O=C(O)C(OC(=O)c1ccccc1)C(OC(=O)c1ccccc1)C(=O)O"
@@ -135,6 +154,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.3, 
                 "id": "mol_19", 
                 "molid": 19, 
                 "smi": "O=C(O)C(O)C(OC(=O)c1ccccc1)(C(=O)O)C(=O)c1ccccc1"
@@ -142,6 +162,7 @@
         }, 
         {
             "data": {
+                "molwt": 345.27, 
                 "id": "mol_20", 
                 "molid": 20, 
                 "smi": "O=C(O)CN(C(=O)c1cccc([N+](=O)[O-])c1[N+](=O)[O-])c1ccccc1"
@@ -149,6 +170,7 @@
         }, 
         {
             "data": {
+                "molwt": 345.27, 
                 "id": "mol_21", 
                 "molid": 21, 
                 "smi": "O=C(O)C(N(C(=O)c1ccccc1)c1ccccc1)([N+](=O)[O-])[N+](=O)[O-]"
@@ -156,6 +178,7 @@
         }, 
         {
             "data": {
+                "molwt": 345.27, 
                 "id": "mol_22", 
                 "molid": 22, 
                 "smi": "O=C(O)CNc1ccccc1C(=O)c1cccc([N+](=O)[O-])c1[N+](=O)[O-]"
@@ -163,6 +186,7 @@
         }, 
         {
             "data": {
+                "molwt": 307.48, 
                 "id": "mol_23", 
                 "molid": 23, 
                 "smi": "CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1"
@@ -170,6 +194,7 @@
         }, 
         {
             "data": {
+                "molwt": 433.5, 
                 "id": "mol_24", 
                 "molid": 24, 
                 "smi": "COc1c(C)c2c(c(O)c1CC=C(C)CCC(=O)OCCN1CCOCC1)C(=O)OC2"
@@ -177,6 +202,7 @@
         }, 
         {
             "data": {
+                "molwt": 478.58, 
                 "id": "mol_25", 
                 "molid": 25, 
                 "smi": "CCCCC(=O)OCC(=O)C1C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -184,6 +210,7 @@
         }, 
         {
             "data": {
+                "molwt": 478.58, 
                 "id": "mol_26", 
                 "molid": 26, 
                 "smi": "CCCCC(=O)OCC(=O)C1C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -191,6 +218,7 @@
         }, 
         {
             "data": {
+                "molwt": 478.58, 
                 "id": "mol_27", 
                 "molid": 27, 
                 "smi": "CCCCC(=O)OCC(=O)C1C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -198,6 +226,7 @@
         }, 
         {
             "data": {
+                "molwt": 508.56, 
                 "id": "mol_28", 
                 "molid": 28, 
                 "smi": "CCCC(=O)OC1(C(=O)COC(C)=O)CCC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -205,6 +234,7 @@
         }, 
         {
             "data": {
+                "molwt": 508.56, 
                 "id": "mol_29", 
                 "molid": 29, 
                 "smi": "CCCC(=O)OC1(C(=O)COC(C)=O)CCC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -212,6 +242,7 @@
         }, 
         {
             "data": {
+                "molwt": 521.05, 
                 "id": "mol_30", 
                 "molid": 30, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3C(Cl)CC4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -219,6 +250,7 @@
         }, 
         {
             "data": {
+                "molwt": 557.08, 
                 "id": "mol_31", 
                 "molid": 31, 
                 "smi": "CCC(=O)O.CCC(=O)O.CC1CC2C3C(Cl)CC4=CC(=O)C=CC4(C)C3C(O)CC2(C)C1(O)C(=O)CO"
@@ -226,6 +258,7 @@
         }, 
         {
             "data": {
+                "molwt": 502.58, 
                 "id": "mol_32", 
                 "molid": 32, 
                 "smi": "CC(=O)OCC(=O)C12OC3(CCCC3)OC1CC1C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC12C"
@@ -233,6 +266,7 @@
         }, 
         {
             "data": {
+                "molwt": 393.47, 
                 "id": "mol_33", 
                 "molid": 33, 
                 "smi": "COc1cc(NS(C)(=O)=O)ccc1Nc1c2ccccc2nc2ccccc21"
@@ -240,6 +274,7 @@
         }, 
         {
             "data": {
+                "molwt": 521.05, 
                 "id": "mol_34", 
                 "molid": 34, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC21C"
@@ -247,6 +282,7 @@
         }, 
         {
             "data": {
+                "molwt": 392.47, 
                 "id": "mol_35", 
                 "molid": 35, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -254,6 +290,7 @@
         }, 
         {
             "data": {
+                "molwt": 504.6, 
                 "id": "mol_36", 
                 "molid": 36, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -261,6 +298,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_37", 
                 "molid": 37, 
                 "smi": "CC(=O)OCC(=O)C1(O)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -268,6 +306,7 @@
         }, 
         {
             "data": {
+                "molwt": 546.63, 
                 "id": "mol_38", 
                 "molid": 38, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(OC(C)=O)CC21C"
@@ -275,6 +314,7 @@
         }, 
         {
             "data": {
+                "molwt": 452.52, 
                 "id": "mol_39", 
                 "molid": 39, 
                 "smi": "CC(=O)O.CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -282,6 +322,7 @@
         }, 
         {
             "data": {
+                "molwt": 504.6, 
                 "id": "mol_40", 
                 "molid": 40, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -289,6 +330,7 @@
         }, 
         {
             "data": {
+                "molwt": 652.75, 
                 "id": "mol_41", 
                 "molid": 41, 
                 "smi": "CCC(=O)O.CCC(=O)O.CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -296,6 +338,7 @@
         }, 
         {
             "data": {
+                "molwt": 540.63, 
                 "id": "mol_42", 
                 "molid": 42, 
                 "smi": "CCC(=O)O.CCC(=O)O.CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -303,6 +346,7 @@
         }, 
         {
             "data": {
+                "molwt": 472.45, 
                 "id": "mol_43", 
                 "molid": 43, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)COP(=O)(O)O"
@@ -310,6 +354,7 @@
         }, 
         {
             "data": {
+                "molwt": 584.57, 
                 "id": "mol_44", 
                 "molid": 44, 
                 "smi": "CCC(=O)OCC(=O)C1(OC(=O)CC)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(OP(=O)(O)O)CC21C"
@@ -317,6 +362,7 @@
         }, 
         {
             "data": {
+                "molwt": 490.46, 
                 "id": "mol_45", 
                 "molid": 45, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO.O=P(O)(O)O"
@@ -324,6 +370,7 @@
         }, 
         {
             "data": {
+                "molwt": 476.59, 
                 "id": "mol_46", 
                 "molid": 46, 
                 "smi": "CCCCC(=O)OC1(C(=O)CO)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -331,6 +378,7 @@
         }, 
         {
             "data": {
+                "molwt": 588.71, 
                 "id": "mol_47", 
                 "molid": 47, 
                 "smi": "CCCCC(=O)OC1CC2(C)C(CC(C)C2(OC(=O)CC)C(=O)COC(=O)CC)C2CCC3=CC(=O)C=CC3(C)C12F"
@@ -338,6 +386,7 @@
         }, 
         {
             "data": {
+                "molwt": 494.6, 
                 "id": "mol_48", 
                 "molid": 48, 
                 "smi": "CCCCC(=O)O.CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -345,6 +394,7 @@
         }, 
         {
             "data": {
+                "molwt": 430.54, 
                 "id": "mol_49", 
                 "molid": 49, 
                 "smi": "CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C)C4C(O)CC3(C)C2(C(=O)CO)O1"
@@ -352,6 +402,7 @@
         }, 
         {
             "data": {
+                "molwt": 430.54, 
                 "id": "mol_50", 
                 "molid": 50, 
                 "smi": "CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C)C4C(O)CC3(C)C2(C(=O)CO)O1"
@@ -359,6 +410,7 @@
         }, 
         {
             "data": {
+                "molwt": 466.98, 
                 "id": "mol_51", 
                 "molid": 51, 
                 "smi": "CCC(=O)OC1(C(=O)CCl)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -366,6 +418,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.49, 
                 "id": "mol_52", 
                 "molid": 52, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(=O)CC21C"
@@ -373,6 +426,7 @@
         }, 
         {
             "data": {
+                "molwt": 420.5, 
                 "id": "mol_53", 
                 "molid": 53, 
                 "smi": "CC(=O)O.CC12CC(=O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -380,6 +434,7 @@
         }, 
         {
             "data": {
+                "molwt": 530.67, 
                 "id": "mol_54", 
                 "molid": 54, 
                 "smi": "CC(=O)OCC(=O)C1(O)C(C)CC2C3C=C(C)C4=Cc5c(cnn5-c5ccccc5)CC4(C)C3C(O)CC21C"
@@ -387,6 +442,7 @@
         }, 
         {
             "data": {
+                "molwt": 416.51, 
                 "id": "mol_55", 
                 "molid": 55, 
                 "smi": "CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4C(O)CC3(C)C2(C(=O)CO)O1"
@@ -394,6 +450,7 @@
         }, 
         {
             "data": {
+                "molwt": 376.47, 
                 "id": "mol_56", 
                 "molid": 56, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1C(=O)CO"
@@ -401,6 +458,7 @@
         }, 
         {
             "data": {
+                "molwt": 376.47, 
                 "id": "mol_57", 
                 "molid": 57, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1C(=O)CO"
@@ -408,6 +466,7 @@
         }, 
         {
             "data": {
+                "molwt": 392.47, 
                 "id": "mol_58", 
                 "molid": 58, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -415,6 +474,7 @@
         }, 
         {
             "data": {
+                "molwt": 392.47, 
                 "id": "mol_59", 
                 "molid": 59, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -422,6 +482,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_60", 
                 "molid": 60, 
                 "smi": "CC(=O)OCC(=O)C1(O)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -429,6 +490,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_61", 
                 "molid": 61, 
                 "smi": "CC(=O)OC1(C(=O)CO)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -436,6 +498,7 @@
         }, 
         {
             "data": {
+                "molwt": 452.52, 
                 "id": "mol_62", 
                 "molid": 62, 
                 "smi": "CC(=O)O.CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO"
@@ -443,6 +506,7 @@
         }, 
         {
             "data": {
+                "molwt": 497.56, 
                 "id": "mol_63", 
                 "molid": 63, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)COC(=O)c1ccncc1"
@@ -450,6 +514,7 @@
         }, 
         {
             "data": {
+                "molwt": 497.56, 
                 "id": "mol_64", 
                 "molid": 64, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(OC(=O)c1ccncc1)C(=O)CO"
@@ -457,6 +522,7 @@
         }, 
         {
             "data": {
+                "molwt": 515.58, 
                 "id": "mol_65", 
                 "molid": 65, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO.O=C(O)c1ccncc1"
@@ -464,6 +530,7 @@
         }, 
         {
             "data": {
+                "molwt": 487.4, 
                 "id": "mol_66", 
                 "molid": 66, 
                 "smi": "CC1(C)OC2CC3C4CC(F)C5=CC(=O)C=CC5(C)C4(Cl)C(Cl)CC3(C)C2(C(=O)CO)O1"
@@ -471,6 +538,7 @@
         }, 
         {
             "data": {
+                "molwt": 422.49, 
                 "id": "mol_67", 
                 "molid": 67, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3(F)C(O)CC21C"
@@ -478,6 +546,7 @@
         }, 
         {
             "data": {
+                "molwt": 420.48, 
                 "id": "mol_68", 
                 "molid": 68, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3(F)C(=O)CC21C"
@@ -485,6 +554,7 @@
         }, 
         {
             "data": {
+                "molwt": 436.52, 
                 "id": "mol_69", 
                 "molid": 69, 
                 "smi": "CC1(C)OC2CC3C4CC(F)C5=CC(=O)CCC5(C)C4C(O)CC3(C)C2(C(=O)CO)O1"
@@ -492,6 +562,7 @@
         }, 
         {
             "data": {
+                "molwt": 494.58, 
                 "id": "mol_70", 
                 "molid": 70, 
                 "smi": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(OC(=O)C(C)(C)C)C(=O)CO"
@@ -499,6 +570,7 @@
         }, 
         {
             "data": {
+                "molwt": 494.58, 
                 "id": "mol_71", 
                 "molid": 71, 
                 "smi": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)COC(=O)C(C)(C)C"
@@ -506,6 +578,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_72", 
                 "molid": 72, 
                 "smi": "CC1(C)OC2CC3C4CC(F)C5=CC(=O)C=CC5(C)C4C(O)CC3(C)C2(C(=O)CO)O1"
@@ -513,6 +586,7 @@
         }, 
         {
             "data": {
+                "molwt": 452.49, 
                 "id": "mol_73", 
                 "molid": 73, 
                 "smi": "CC1(C)OC2CC3C4CC(F)C5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1"
@@ -520,6 +594,7 @@
         }, 
         {
             "data": {
+                "molwt": 494.53, 
                 "id": "mol_74", 
                 "molid": 74, 
                 "smi": "CC(=O)OCC(=O)C12OC(C)(C)OC1CC1C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC12C"
@@ -527,6 +602,7 @@
         }, 
         {
             "data": {
+                "molwt": 376.47, 
                 "id": "mol_75", 
                 "molid": 75, 
                 "smi": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3C(O)CC2(C)C1C(=O)CO"
@@ -534,6 +610,7 @@
         }, 
         {
             "data": {
+                "molwt": 474.61, 
                 "id": "mol_76", 
                 "molid": 76, 
                 "smi": "CCCCCC(=O)OC1CC2(C)C(CC(C)C2C(=O)CO)C2CC(F)C3=CC(=O)C=CC3(C)C12"
@@ -541,6 +618,7 @@
         }, 
         {
             "data": {
+                "molwt": 460.59, 
                 "id": "mol_77", 
                 "molid": 77, 
                 "smi": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3C(OC(=O)C(C)(C)C)CC2(C)C1C(=O)CO"
@@ -548,6 +626,7 @@
         }, 
         {
             "data": {
+                "molwt": 478.6, 
                 "id": "mol_78", 
                 "molid": 78, 
                 "smi": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3C(O)CC2(C)C1C(=O)CO.CC(C)(C)C(=O)O"
@@ -555,6 +634,7 @@
         }, 
         {
             "data": {
+                "molwt": 376.47, 
                 "id": "mol_79", 
                 "molid": 79, 
                 "smi": "CC(=O)C1(O)CCC2C3CC(C)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -562,6 +642,7 @@
         }, 
         {
             "data": {
+                "molwt": 432.49, 
                 "id": "mol_80", 
                 "molid": 80, 
                 "smi": "C=C1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)COC(C)=O"
@@ -569,6 +650,7 @@
         }, 
         {
             "data": {
+                "molwt": 500.58, 
                 "id": "mol_81", 
                 "molid": 81, 
                 "smi": "CCC(=O)OC1(C(=O)SCF)C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -576,6 +658,7 @@
         }, 
         {
             "data": {
+                "molwt": 500.58, 
                 "id": "mol_82", 
                 "molid": 82, 
                 "smi": "CCC(=O)OC1(C(=O)SCF)C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -583,6 +666,7 @@
         }, 
         {
             "data": {
+                "molwt": 556.64, 
                 "id": "mol_83", 
                 "molid": 83, 
                 "smi": "CCC(=O)OC1CC2(C)C(CC(C)C2(OC(=O)CC)C(=O)SCF)C2CC(F)C3=CC(=O)C=CC3(C)C12F"
@@ -590,6 +674,7 @@
         }, 
         {
             "data": {
+                "molwt": 454.97, 
                 "id": "mol_84", 
                 "molid": 84, 
                 "smi": "CC1(C)OC2CC3C4CCC5=CC(=O)CCC5(C)C4(F)C(O)CC3(C)C2(C(=O)CCl)O1"
@@ -597,6 +682,7 @@
         }, 
         {
             "data": {
+                "molwt": 454.97, 
                 "id": "mol_85", 
                 "molid": 85, 
                 "smi": "CC1(C)OC2CC3C4CCC5=CC(=O)CCC5(C)C4(F)C(O)CC3(C)C2(C(=O)CCl)O1"
@@ -604,6 +690,7 @@
         }, 
         {
             "data": {
+                "molwt": 362.47, 
                 "id": "mol_86", 
                 "molid": 86, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -611,6 +698,7 @@
         }, 
         {
             "data": {
+                "molwt": 362.47, 
                 "id": "mol_87", 
                 "molid": 87, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -618,6 +706,7 @@
         }, 
         {
             "data": {
+                "molwt": 404.5, 
                 "id": "mol_88", 
                 "molid": 88, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C"
@@ -625,6 +714,7 @@
         }, 
         {
             "data": {
+                "molwt": 422.52, 
                 "id": "mol_89", 
                 "molid": 89, 
                 "smi": "CC(=O)O.CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -632,6 +722,7 @@
         }, 
         {
             "data": {
+                "molwt": 362.47, 
                 "id": "mol_90", 
                 "molid": 90, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -639,6 +730,7 @@
         }, 
         {
             "data": {
+                "molwt": 432.56, 
                 "id": "mol_91", 
                 "molid": 91, 
                 "smi": "CCCC(=O)OC1(C(=O)CO)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C"
@@ -646,6 +738,7 @@
         }, 
         {
             "data": {
+                "molwt": 432.56, 
                 "id": "mol_92", 
                 "molid": 92, 
                 "smi": "CCCC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C"
@@ -653,6 +746,7 @@
         }, 
         {
             "data": {
+                "molwt": 450.57, 
                 "id": "mol_93", 
                 "molid": 93, 
                 "smi": "CCCC(=O)O.CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)CO"
@@ -660,6 +754,7 @@
         }, 
         {
             "data": {
+                "molwt": 462.54, 
                 "id": "mol_94", 
                 "molid": 94, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)CCC43C)C1CCC2(O)C(=O)COC(=O)CCC(=O)O"
@@ -667,6 +762,7 @@
         }, 
         {
             "data": {
+                "molwt": 305.2, 
                 "id": "mol_95", 
                 "molid": 95, 
                 "smi": "NC(Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O"
@@ -674,6 +770,7 @@
         }, 
         {
             "data": {
+                "molwt": 372.46, 
                 "id": "mol_96", 
                 "molid": 96, 
                 "smi": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO"
@@ -681,6 +778,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.48, 
                 "id": "mol_97", 
                 "molid": 97, 
                 "smi": "CC1CC2C3CCC(O)(C(=O)CO)C3(C)CC(O)C2C2(C)C=CC(=O)C=C12"
@@ -688,6 +786,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.48, 
                 "id": "mol_98", 
                 "molid": 98, 
                 "smi": "CC1CC2C3CCC(O)(C(=O)CO)C3(C)CC(O)C2C2(C)C=CC(=O)C=C12"
@@ -695,6 +794,7 @@
         }, 
         {
             "data": {
+                "molwt": 416.51, 
                 "id": "mol_99", 
                 "molid": 99, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CC(C)C4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -702,6 +802,7 @@
         }, 
         {
             "data": {
+                "molwt": 416.51, 
                 "id": "mol_100", 
                 "molid": 100, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)C=C(C)C4(C)C3C(O)CC21C"
@@ -709,6 +810,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.53, 
                 "id": "mol_101", 
                 "molid": 101, 
                 "smi": "CC(=O)O.CC1CC2C3CCC(O)(C(=O)CO)C3(C)CC(O)C2C2(C)C=CC(=O)C=C12"
@@ -716,6 +818,7 @@
         }, 
         {
             "data": {
+                "molwt": 474.55, 
                 "id": "mol_102", 
                 "molid": 102, 
                 "smi": "CC1CC2C3CCC(O)(C(=O)COC(=O)CCC(=O)O)C3(C)CC(O)C2C2(C)C=CC(=O)C=C12"
@@ -723,6 +826,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.54, 
                 "id": "mol_103", 
                 "molid": 103, 
                 "smi": "CCCCC(C)(O)CC=CC1C(O)CC(=O)C1CCCCCCC(=O)OC"
@@ -730,6 +834,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.54, 
                 "id": "mol_104", 
                 "molid": 104, 
                 "smi": "CCCCC(C)(O)CC=CC1C(O)CC(=O)C1CCCCCCC(=O)OC"
@@ -737,6 +842,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_105", 
                 "molid": 105, 
                 "smi": "CC(=O)OCC(=O)C1(O)C(C)CC2C3CC(F)C4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -744,6 +850,7 @@
         }, 
         {
             "data": {
+                "molwt": 658.73, 
                 "id": "mol_106", 
                 "molid": 106, 
                 "smi": "CC(C)c1ccccc1OCC1=NCCN1.CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)COP(=O)(O)O"
@@ -751,6 +858,7 @@
         }, 
         {
             "data": {
+                "molwt": 360.45, 
                 "id": "mol_107", 
                 "molid": 107, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO"
@@ -758,6 +866,7 @@
         }, 
         {
             "data": {
+                "molwt": 360.45, 
                 "id": "mol_108", 
                 "molid": 108, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO"
@@ -765,6 +874,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.49, 
                 "id": "mol_109", 
                 "molid": 109, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -772,6 +882,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.49, 
                 "id": "mol_110", 
                 "molid": 110, 
                 "smi": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -779,6 +890,7 @@
         }, 
         {
             "data": {
+                "molwt": 420.5, 
                 "id": "mol_111", 
                 "molid": 111, 
                 "smi": "CC(=O)O.CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO"
@@ -786,6 +898,7 @@
         }, 
         {
             "data": {
+                "molwt": 458.6, 
                 "id": "mol_112", 
                 "molid": 112, 
                 "smi": "CCCCCC(=O)OC1(C(=O)CO)CCC2C3CCC4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -793,6 +906,7 @@
         }, 
         {
             "data": {
+                "molwt": 458.6, 
                 "id": "mol_113", 
                 "molid": 113, 
                 "smi": "CCCCCC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)C=CC4(C)C3C(O)CC21C"
@@ -800,6 +914,7 @@
         }, 
         {
             "data": {
+                "molwt": 474.59, 
                 "id": "mol_114", 
                 "molid": 114, 
                 "smi": "CCCCCC(=O)OC1=CC(=O)C=C2CCC3C4CCC(O)(C(=O)CO)C4(C)CC(O)C3C21C"
@@ -807,6 +922,7 @@
         }, 
         {
             "data": {
+                "molwt": 476.61, 
                 "id": "mol_115", 
                 "molid": 115, 
                 "smi": "CCCCCC(=O)O.CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO"
@@ -814,6 +930,7 @@
         }, 
         {
             "data": {
+                "molwt": 440.43, 
                 "id": "mol_116", 
                 "molid": 116, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(OP(=O)(O)O)C(=O)CO"
@@ -821,6 +938,7 @@
         }, 
         {
             "data": {
+                "molwt": 440.43, 
                 "id": "mol_117", 
                 "molid": 117, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)COP(=O)(O)O"
@@ -828,6 +946,7 @@
         }, 
         {
             "data": {
+                "molwt": 456.43, 
                 "id": "mol_118", 
                 "molid": 118, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=C(OP(=O)(O)O)C43C)C1CCC2(O)C(=O)CO"
@@ -835,6 +954,7 @@
         }, 
         {
             "data": {
+                "molwt": 458.44, 
                 "id": "mol_119", 
                 "molid": 119, 
                 "smi": "CC12CC(O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO.O=P(O)(O)O"
@@ -842,6 +962,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.43, 
                 "id": "mol_120", 
                 "molid": 120, 
                 "smi": "CC12CC(=O)C3C(CCC4=CC(=O)C=CC43C)C1CCC2(O)C(=O)CO"
@@ -849,6 +970,7 @@
         }, 
         {
             "data": {
+                "molwt": 372.46, 
                 "id": "mol_121", 
                 "molid": 121, 
                 "smi": "C=C1CC2C3CCC4=CC(=O)C=CC4(C)C3C(O)CC2(C)C1(O)C(=O)CO"
@@ -856,6 +978,7 @@
         }, 
         {
             "data": {
+                "molwt": 462.65, 
                 "id": "mol_122", 
                 "molid": 122, 
                 "smi": "CC(C)(C)C(=O)SCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C"
@@ -863,6 +986,7 @@
         }, 
         {
             "data": {
+                "molwt": 462.65, 
                 "id": "mol_123", 
                 "molid": 123, 
                 "smi": "CC(C)(C)C(=O)SCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C"
@@ -870,6 +994,7 @@
         }, 
         {
             "data": {
+                "molwt": 394.44, 
                 "id": "mol_124", 
                 "molid": 124, 
                 "smi": "CC12CC(O)C3(F)C(CCC4=CC(=O)C=CC43C)C1CC(O)C2(O)C(=O)CO"
@@ -877,6 +1002,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_125", 
                 "molid": 125, 
                 "smi": "CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1"
@@ -884,6 +1010,7 @@
         }, 
         {
             "data": {
+                "molwt": 434.5, 
                 "id": "mol_126", 
                 "molid": 126, 
                 "smi": "CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1"
@@ -891,6 +1018,7 @@
         }, 
         {
             "data": {
+                "molwt": 623.72, 
                 "id": "mol_127", 
                 "molid": 127, 
                 "smi": "CC(CNC(=O)c1ccccc1)C(=O)OCC(=O)C12OC(C)(C)OC1CC1C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC12C"
@@ -898,6 +1026,7 @@
         }, 
         {
             "data": {
+                "molwt": 623.72, 
                 "id": "mol_128", 
                 "molid": 128, 
                 "smi": "CC(CNC(=O)c1ccccc1)C(=O)OCC(=O)C12OC(C)(C)OC1CC1C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC12C"
@@ -905,6 +1034,7 @@
         }, 
         {
             "data": {
+                "molwt": 394.44, 
                 "id": "mol_129", 
                 "molid": 129, 
                 "smi": "CC12CC(O)C3(F)C(CCC4=CC(=O)C=CC43C)C1CC(O)C2(O)C(=O)CO"
@@ -912,6 +1042,7 @@
         }, 
         {
             "data": {
+                "molwt": 478.51, 
                 "id": "mol_130", 
                 "molid": 130, 
                 "smi": "CC(=O)OCC(=O)C1(O)C(OC(C)=O)CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC21C"
@@ -919,6 +1050,7 @@
         }, 
         {
             "data": {
+                "molwt": 518.58, 
                 "id": "mol_131", 
                 "molid": 131, 
                 "smi": "CC(=O)OCC(=O)C12OC(C)(C)OC1CC1C3CCC4=CC(=O)C=CC4(C)C3(F)C(OC(C)=O)CC12C"
@@ -926,6 +1058,7 @@
         }, 
         {
             "data": {
+                "molwt": 532.65, 
                 "id": "mol_132", 
                 "molid": 132, 
                 "smi": "CC(C)(C)CC(=O)OCC(=O)C12OC(C)(C)OC1CC1C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC12C"
@@ -933,6 +1066,7 @@
         }, 
         {
             "data": {
+                "molwt": 446.52, 
                 "id": "mol_133", 
                 "molid": 133, 
                 "smi": "[Na+].CCC(C)C(=O)OC1CC(O)C=C2C=CC(C)C(CCC(O)CC(O)CC(=O)[O-])C21"
@@ -940,6 +1074,7 @@
         }, 
         {
             "data": {
+                "molwt": 360.45, 
                 "id": "mol_134", 
                 "molid": 134, 
                 "smi": "CCC(C)(C)C(=O)C(=O)N1CCCC1C(=O)OCCCc1cccnc1"
@@ -947,6 +1082,7 @@
         }, 
         {
             "data": {
+                "molwt": 331.2, 
                 "id": "mol_135", 
                 "molid": 135, 
                 "smi": "CC(C)(c1ccc(I)cc1)N1CCOCC1"
@@ -954,6 +1090,7 @@
         }, 
         {
             "data": {
+                "molwt": 325.82, 
                 "id": "mol_136", 
                 "molid": 136, 
                 "smi": "[Cs+].[Cs+].O=C([O-])[O-]"
@@ -961,6 +1098,7 @@
         }, 
         {
             "data": {
+                "molwt": 345.22, 
                 "id": "mol_137", 
                 "molid": 137, 
                 "smi": "CC(C)(CN1CCOCC1)c1ccc(I)cc1"
@@ -968,6 +1106,7 @@
         }, 
         {
             "data": {
+                "molwt": 303.19, 
                 "id": "mol_138", 
                 "molid": 138, 
                 "smi": "CN(C)CC(C)(C)c1ccc(I)cc1"
@@ -975,6 +1114,7 @@
         }, 
         {
             "data": {
+                "molwt": 343.21, 
                 "id": "mol_139", 
                 "molid": 139, 
                 "smi": "Ic1ccc(C2(CN3CCOCC3)CC2)cc1"
@@ -982,6 +1122,7 @@
         }, 
         {
             "data": {
+                "molwt": 304.37, 
                 "id": "mol_140", 
                 "molid": 140, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CSc1c(OC)cccc1-2"
@@ -989,6 +1130,7 @@
         }, 
         {
             "data": {
+                "molwt": 304.37, 
                 "id": "mol_141", 
                 "molid": 141, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CSc1cc(OC)ccc1-2"
@@ -996,6 +1138,7 @@
         }, 
         {
             "data": {
+                "molwt": 336.42, 
                 "id": "mol_142", 
                 "molid": 142, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1ccccc1-2"
@@ -1003,6 +1146,7 @@
         }, 
         {
             "data": {
+                "molwt": 350.44, 
                 "id": "mol_143", 
                 "molid": 143, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(C)c2)c2c1CSc1ccccc1-2"
@@ -1010,6 +1154,7 @@
         }, 
         {
             "data": {
+                "molwt": 350.44, 
                 "id": "mol_144", 
                 "molid": 144, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(C)cc2)c2c1CSc1ccccc1-2"
@@ -1017,6 +1162,7 @@
         }, 
         {
             "data": {
+                "molwt": 417.51, 
                 "id": "mol_145", 
                 "molid": 145, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2cc(F)ccc2C)C2C1=C(S)Oc1ccccc12"
@@ -1024,6 +1170,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.52, 
                 "id": "mol_146", 
                 "molid": 146, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2cccc(OC)c2)C2C1=C(S)Oc1ccccc12"
@@ -1031,6 +1178,7 @@
         }, 
         {
             "data": {
+                "molwt": 366.44, 
                 "id": "mol_147", 
                 "molid": 147, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(OC)cc2)c2c1CSc1ccccc1-2"
@@ -1038,6 +1186,7 @@
         }, 
         {
             "data": {
+                "molwt": 337.4, 
                 "id": "mol_148", 
                 "molid": 148, 
                 "smi": "CCOC(=O)c1nn(-c2ccccn2)c2c1CSc1ccccc1-2"
@@ -1045,6 +1194,7 @@
         }, 
         {
             "data": {
+                "molwt": 336.42, 
                 "id": "mol_149", 
                 "molid": 149, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1ccccc1-2"
@@ -1052,6 +1202,7 @@
         }, 
         {
             "data": {
+                "molwt": 342.46, 
                 "id": "mol_150", 
                 "molid": 150, 
                 "smi": "CCOC(=O)c1nn(C2CCCCC2)c2c1CSc1ccccc1-2"
@@ -1059,6 +1210,7 @@
         }, 
         {
             "data": {
+                "molwt": 353.24, 
                 "id": "mol_151", 
                 "molid": 151, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CSc1c(Br)cccc1-2"
@@ -1066,6 +1218,7 @@
         }, 
         {
             "data": {
+                "molwt": 319.34, 
                 "id": "mol_152", 
                 "molid": 152, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CSc1ccc([N+](=O)[O-])cc1-2"
@@ -1073,6 +1226,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.41, 
                 "id": "mol_153", 
                 "molid": 153, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1c(F)cccc1-2"
@@ -1080,6 +1234,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.41, 
                 "id": "mol_154", 
                 "molid": 154, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1ccc(F)cc1-2"
@@ -1087,6 +1242,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.31, 
                 "id": "mol_155", 
                 "molid": 155, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1c(Br)cccc1-2"
@@ -1094,6 +1250,7 @@
         }, 
         {
             "data": {
+                "molwt": 381.41, 
                 "id": "mol_156", 
                 "molid": 156, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1ccc([N+](=O)[O-])cc1-2"
@@ -1101,6 +1258,7 @@
         }, 
         {
             "data": {
+                "molwt": 350.44, 
                 "id": "mol_157", 
                 "molid": 157, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2C)c2c1CSc1ccccc1-2"
@@ -1108,6 +1266,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.31, 
                 "id": "mol_158", 
                 "molid": 158, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2Br)c2c1CSc1ccccc1-2"
@@ -1115,6 +1274,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.41, 
                 "id": "mol_159", 
                 "molid": 159, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2F)c2c1CSc1ccccc1-2"
@@ -1122,6 +1282,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.86, 
                 "id": "mol_160", 
                 "molid": 160, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2Cl)c2c1CSc1ccccc1-2"
@@ -1129,6 +1290,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.51, 
                 "id": "mol_161", 
                 "molid": 161, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2SC)c2c1CSc1ccccc1-2"
@@ -1136,6 +1298,7 @@
         }, 
         {
             "data": {
+                "molwt": 407.52, 
                 "id": "mol_162", 
                 "molid": 162, 
                 "smi": "CCOC(=O)c1nn(-c2ccc3nc(C)sc3c2)c2c1CSc1ccccc1-2"
@@ -1143,6 +1306,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.31, 
                 "id": "mol_163", 
                 "molid": 163, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(Br)c2)c2c1CSc1ccccc1-2"
@@ -1150,6 +1314,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.86, 
                 "id": "mol_164", 
                 "molid": 164, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(Cl)c2)c2c1CSc1ccccc1-2"
@@ -1157,6 +1322,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.31, 
                 "id": "mol_165", 
                 "molid": 165, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(Br)cc2)c2c1CSc1ccccc1-2"
@@ -1164,6 +1330,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.41, 
                 "id": "mol_166", 
                 "molid": 166, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(F)cc2)c2c1CSc1ccccc1-2"
@@ -1171,6 +1338,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.86, 
                 "id": "mol_167", 
                 "molid": 167, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(Cl)cc2)c2c1CSc1ccccc1-2"
@@ -1178,6 +1346,7 @@
         }, 
         {
             "data": {
+                "molwt": 378.5, 
                 "id": "mol_168", 
                 "molid": 168, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(C(C)C)cc2)c2c1CSc1ccccc1-2"
@@ -1185,6 +1354,7 @@
         }, 
         {
             "data": {
+                "molwt": 351.43, 
                 "id": "mol_169", 
                 "molid": 169, 
                 "smi": "CCOC(=O)c1nn(-c2cnccc2C)c2c1CSc1ccccc1-2"
@@ -1192,6 +1362,7 @@
         }, 
         {
             "data": {
+                "molwt": 344.44, 
                 "id": "mol_170", 
                 "molid": 170, 
                 "smi": "CCOC(=O)c1nn(C2CCOCC2)c2c1CSc1ccccc1-2"
@@ -1199,6 +1370,7 @@
         }, 
         {
             "data": {
+                "molwt": 348.3, 
                 "id": "mol_171", 
                 "molid": 171, 
                 "smi": "CCOC(=O)C(=O)C1CSc2cc(OC(F)(F)F)ccc2C1=O"
@@ -1206,6 +1378,7 @@
         }, 
         {
             "data": {
+                "molwt": 343.45, 
                 "id": "mol_172", 
                 "molid": 172, 
                 "smi": "CCOC(=O)c1nn(C2CCNCC2)c2c1CSc1ccccc1-2"
@@ -1213,6 +1386,7 @@
         }, 
         {
             "data": {
+                "molwt": 493.55, 
                 "id": "mol_173", 
                 "molid": 173, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(-c3nc(CN(C)C)no3)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1220,6 +1394,7 @@
         }, 
         {
             "data": {
+                "molwt": 480.5, 
                 "id": "mol_174", 
                 "molid": 174, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(-c3nc(COC)no3)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1227,6 +1402,7 @@
         }, 
         {
             "data": {
+                "molwt": 373.46, 
                 "id": "mol_175", 
                 "molid": 175, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(OC)nc2)c2c1CSc1sccc1-2"
@@ -1234,6 +1410,7 @@
         }, 
         {
             "data": {
+                "molwt": 353.4, 
                 "id": "mol_176", 
                 "molid": 176, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(=O)[nH]c2)c2c1CSc1ccccc1-2"
@@ -1241,6 +1418,7 @@
         }, 
         {
             "data": {
+                "molwt": 367.43, 
                 "id": "mol_177", 
                 "molid": 177, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(OC)nc2)c2c1CSc1ccccc1-2"
@@ -1248,6 +1426,7 @@
         }, 
         {
             "data": {
+                "molwt": 359.43, 
                 "id": "mol_178", 
                 "molid": 178, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(=O)[nH]c2)c2c1CSc1sccc1-2"
@@ -1255,6 +1434,7 @@
         }, 
         {
             "data": {
+                "molwt": 322.38, 
                 "id": "mol_179", 
                 "molid": 179, 
                 "smi": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC"
@@ -1262,6 +1442,7 @@
         }, 
         {
             "data": {
+                "molwt": 367.43, 
                 "id": "mol_180", 
                 "molid": 180, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(=O)n(C)c2)c2c1CSc1ccccc1-2"
@@ -1269,6 +1450,7 @@
         }, 
         {
             "data": {
+                "molwt": 325.35, 
                 "id": "mol_181", 
                 "molid": 181, 
                 "smi": "O=C(O)c1nn(-c2ccc(=O)[nH]c2)c2c1CSc1ccccc1-2"
@@ -1276,6 +1458,7 @@
         }, 
         {
             "data": {
+                "molwt": 414.44, 
                 "id": "mol_182", 
                 "molid": 182, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(C(=O)O)c2)c2c1CS(O)(O)c1ccccc1-2"
@@ -1283,6 +1466,7 @@
         }, 
         {
             "data": {
+                "molwt": 412.42, 
                 "id": "mol_183", 
                 "molid": 183, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(C(=O)O)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1290,6 +1474,7 @@
         }, 
         {
             "data": {
+                "molwt": 419.89, 
                 "id": "mol_184", 
                 "molid": 184, 
                 "smi": "Cl.CCOC(=O)c1nn(-c2cccc(N)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1297,6 +1482,7 @@
         }, 
         {
             "data": {
+                "molwt": 503.54, 
                 "id": "mol_185", 
                 "molid": 185, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(NC(=O)Oc3ccccc3)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1304,6 +1490,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.31, 
                 "id": "mol_186", 
                 "molid": 186, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1c(Br)cccc1-2"
@@ -1311,6 +1498,7 @@
         }, 
         {
             "data": {
+                "molwt": 366.44, 
                 "id": "mol_187", 
                 "molid": 187, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1c(OC)cccc1-2"
@@ -1318,6 +1506,7 @@
         }, 
         {
             "data": {
+                "molwt": 336.37, 
                 "id": "mol_188", 
                 "molid": 188, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1c(OC)cccc1-2"
@@ -1325,6 +1514,7 @@
         }, 
         {
             "data": {
+                "molwt": 353.45, 
                 "id": "mol_189", 
                 "molid": 189, 
                 "smi": "CCOC(=O)C1=N[N+](C)(S)C2C1=C(S)Oc1c(OC)cccc12"
@@ -1332,6 +1522,7 @@
         }, 
         {
             "data": {
+                "molwt": 368.41, 
                 "id": "mol_190", 
                 "molid": 190, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1339,6 +1530,7 @@
         }, 
         {
             "data": {
+                "molwt": 306.34, 
                 "id": "mol_191", 
                 "molid": 191, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1346,6 +1538,7 @@
         }, 
         {
             "data": {
+                "molwt": 336.37, 
                 "id": "mol_192", 
                 "molid": 192, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1cc(OC)ccc1-2"
@@ -1353,6 +1546,7 @@
         }, 
         {
             "data": {
+                "molwt": 353.45, 
                 "id": "mol_193", 
                 "molid": 193, 
                 "smi": "CCOC(=O)C1=N[N+](C)(S)C2C1=C(S)Oc1cc(OC)ccc12"
@@ -1360,6 +1554,7 @@
         }, 
         {
             "data": {
+                "molwt": 398.44, 
                 "id": "mol_194", 
                 "molid": 194, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1cc(OC)ccc1-2"
@@ -1367,6 +1562,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.52, 
                 "id": "mol_195", 
                 "molid": 195, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2ccccc2)C2C1=C(S)Oc1cc(OC)ccc12"
@@ -1374,6 +1570,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.44, 
                 "id": "mol_196", 
                 "molid": 196, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(C)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1381,6 +1578,7 @@
         }, 
         {
             "data": {
+                "molwt": 399.52, 
                 "id": "mol_197", 
                 "molid": 197, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2cccc(C)c2)C2C1=C(S)Oc1ccccc12"
@@ -1388,6 +1586,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.44, 
                 "id": "mol_198", 
                 "molid": 198, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(C)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1395,6 +1594,7 @@
         }, 
         {
             "data": {
+                "molwt": 399.52, 
                 "id": "mol_199", 
                 "molid": 199, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2ccc(C)cc2)C2C1=C(S)Oc1ccccc12"
@@ -1402,6 +1602,7 @@
         }, 
         {
             "data": {
+                "molwt": 368.43, 
                 "id": "mol_200", 
                 "molid": 200, 
                 "smi": "CCOC(=O)c1nn(-c2cc(F)ccc2C)c2c1CSc1ccccc1-2"
@@ -1409,6 +1610,7 @@
         }, 
         {
             "data": {
+                "molwt": 398.44, 
                 "id": "mol_201", 
                 "molid": 201, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(OC)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1416,6 +1618,7 @@
         }, 
         {
             "data": {
+                "molwt": 398.44, 
                 "id": "mol_202", 
                 "molid": 202, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(OC)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1423,6 +1626,7 @@
         }, 
         {
             "data": {
+                "molwt": 415.52, 
                 "id": "mol_203", 
                 "molid": 203, 
                 "smi": "CCOC(=O)C1=N[N+](S)(c2ccc(OC)cc2)C2C1=C(S)Oc1ccccc12"
@@ -1430,6 +1634,7 @@
         }, 
         {
             "data": {
+                "molwt": 369.4, 
                 "id": "mol_204", 
                 "molid": 204, 
                 "smi": "CCOC(=O)c1nn(-c2ccccn2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1437,6 +1642,7 @@
         }, 
         {
             "data": {
+                "molwt": 337.4, 
                 "id": "mol_205", 
                 "molid": 205, 
                 "smi": "CCOC(=O)c1nn(-c2ccccn2)c2c1CSc1ccccc1-2"
@@ -1444,6 +1650,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.46, 
                 "id": "mol_206", 
                 "molid": 206, 
                 "smi": "CCOC(=O)c1nn(C2CCCCC2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1451,6 +1658,7 @@
         }, 
         {
             "data": {
+                "molwt": 368.41, 
                 "id": "mol_207", 
                 "molid": 207, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1458,6 +1666,7 @@
         }, 
         {
             "data": {
+                "molwt": 336.42, 
                 "id": "mol_208", 
                 "molid": 208, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CSc1ccccc1-2"
@@ -1465,6 +1674,7 @@
         }, 
         {
             "data": {
+                "molwt": 342.46, 
                 "id": "mol_209", 
                 "molid": 209, 
                 "smi": "CCOC(=O)c1nn(C2CCCCC2)c2c1CSc1ccccc1-2"
@@ -1472,6 +1682,7 @@
         }, 
         {
             "data": {
+                "molwt": 385.24, 
                 "id": "mol_210", 
                 "molid": 210, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1c(Br)cccc1-2"
@@ -1479,6 +1690,7 @@
         }, 
         {
             "data": {
+                "molwt": 324.33, 
                 "id": "mol_211", 
                 "molid": 211, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1c(F)cccc1-2"
@@ -1486,6 +1698,7 @@
         }, 
         {
             "data": {
+                "molwt": 386.4, 
                 "id": "mol_212", 
                 "molid": 212, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(F)cccc1-2"
@@ -1493,6 +1706,7 @@
         }, 
         {
             "data": {
+                "molwt": 324.33, 
                 "id": "mol_213", 
                 "molid": 213, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1ccc(F)cc1-2"
@@ -1500,6 +1714,7 @@
         }, 
         {
             "data": {
+                "molwt": 386.4, 
                 "id": "mol_214", 
                 "molid": 214, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccc(F)cc1-2"
@@ -1507,6 +1722,7 @@
         }, 
         {
             "data": {
+                "molwt": 447.31, 
                 "id": "mol_215", 
                 "molid": 215, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(Br)cccc1-2"
@@ -1514,6 +1730,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.44, 
                 "id": "mol_216", 
                 "molid": 216, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2C)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1521,6 +1738,7 @@
         }, 
         {
             "data": {
+                "molwt": 447.31, 
                 "id": "mol_217", 
                 "molid": 217, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2Br)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1528,6 +1746,7 @@
         }, 
         {
             "data": {
+                "molwt": 386.4, 
                 "id": "mol_218", 
                 "molid": 218, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2F)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1535,6 +1754,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.86, 
                 "id": "mol_219", 
                 "molid": 219, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2Cl)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1542,6 +1762,7 @@
         }, 
         {
             "data": {
+                "molwt": 446.51, 
                 "id": "mol_220", 
                 "molid": 220, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2S(C)(=O)=O)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1549,6 +1770,7 @@
         }, 
         {
             "data": {
+                "molwt": 394.45, 
                 "id": "mol_221", 
                 "molid": 221, 
                 "smi": "CCOC(=O)c1nn(-c2ccc3c(c2)OCCO3)c2c1CSc1ccccc1-2"
@@ -1556,6 +1778,7 @@
         }, 
         {
             "data": {
+                "molwt": 439.52, 
                 "id": "mol_222", 
                 "molid": 222, 
                 "smi": "CCOC(=O)c1nn(-c2ccc3nc(C)sc3c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1563,6 +1786,7 @@
         }, 
         {
             "data": {
+                "molwt": 447.31, 
                 "id": "mol_223", 
                 "molid": 223, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(Br)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1570,6 +1794,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.86, 
                 "id": "mol_224", 
                 "molid": 224, 
                 "smi": "CCOC(=O)c1nn(-c2cccc(Cl)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1577,6 +1802,7 @@
         }, 
         {
             "data": {
+                "molwt": 447.31, 
                 "id": "mol_225", 
                 "molid": 225, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(Br)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1584,6 +1810,7 @@
         }, 
         {
             "data": {
+                "molwt": 386.4, 
                 "id": "mol_226", 
                 "molid": 226, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(F)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1591,6 +1818,7 @@
         }, 
         {
             "data": {
+                "molwt": 402.86, 
                 "id": "mol_227", 
                 "molid": 227, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(Cl)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1598,6 +1826,7 @@
         }, 
         {
             "data": {
+                "molwt": 410.5, 
                 "id": "mol_228", 
                 "molid": 228, 
                 "smi": "CCOC(=O)c1nn(-c2ccc(C(C)C)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1605,6 +1834,7 @@
         }, 
         {
             "data": {
+                "molwt": 383.43, 
                 "id": "mol_229", 
                 "molid": 229, 
                 "smi": "CCOC(=O)c1nn(-c2cnccc2C)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1612,6 +1842,7 @@
         }, 
         {
             "data": {
+                "molwt": 376.43, 
                 "id": "mol_230", 
                 "molid": 230, 
                 "smi": "CCOC(=O)c1nn(C2CCOCC2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1619,6 +1850,7 @@
         }, 
         {
             "data": {
+                "molwt": 385.4, 
                 "id": "mol_231", 
                 "molid": 231, 
                 "smi": "CCOC(=O)c1nn(-c2ccc[n+]([O-])c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1626,6 +1858,7 @@
         }, 
         {
             "data": {
+                "molwt": 385.4, 
                 "id": "mol_232", 
                 "molid": 232, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1cc[n+]([O-])cc1-2"
@@ -1633,6 +1866,7 @@
         }, 
         {
             "data": {
+                "molwt": 398.44, 
                 "id": "mol_233", 
                 "molid": 233, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(OC)cccc1-2"
@@ -1640,6 +1874,7 @@
         }, 
         {
             "data": {
+                "molwt": 308.31, 
                 "id": "mol_234", 
                 "molid": 234, 
                 "smi": "COc1cccc2c1S(=O)(=O)Cc1c(C(=O)O)nn(C)c1-2"
@@ -1647,6 +1882,7 @@
         }, 
         {
             "data": {
+                "molwt": 340.36, 
                 "id": "mol_235", 
                 "molid": 235, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1654,6 +1890,7 @@
         }, 
         {
             "data": {
+                "molwt": 368.41, 
                 "id": "mol_236", 
                 "molid": 236, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1661,6 +1898,7 @@
         }, 
         {
             "data": {
+                "molwt": 306.34, 
                 "id": "mol_237", 
                 "molid": 237, 
                 "smi": "CCOC(=O)c1nn(C)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1668,6 +1906,7 @@
         }, 
         {
             "data": {
+                "molwt": 308.32, 
                 "id": "mol_238", 
                 "molid": 238, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)O)nn(C)c1-2"
@@ -1675,6 +1914,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.39, 
                 "id": "mol_239", 
                 "molid": 239, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)O)nn(-c3ccccc3)c1-2"
@@ -1682,6 +1922,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.39, 
                 "id": "mol_240", 
                 "molid": 240, 
                 "smi": "Cc1cccc(-n2nc(C(=O)O)c3c2-c2ccccc2S(=O)(=O)C3)c1"
@@ -1689,6 +1930,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.39, 
                 "id": "mol_241", 
                 "molid": 241, 
                 "smi": "Cc1ccc(-n2nc(C(=O)O)c3c2-c2ccccc2S(=O)(=O)C3)cc1"
@@ -1696,6 +1938,7 @@
         }, 
         {
             "data": {
+                "molwt": 372.38, 
                 "id": "mol_242", 
                 "molid": 242, 
                 "smi": "Cc1ccc(F)cc1-n1nc(C(=O)O)c2c1-c1ccccc1S(=O)(=O)C2"
@@ -1703,6 +1946,7 @@
         }, 
         {
             "data": {
+                "molwt": 400.43, 
                 "id": "mol_243", 
                 "molid": 243, 
                 "smi": "CCOC(=O)c1nn(-c2cc(F)ccc2C)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1710,6 +1954,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.39, 
                 "id": "mol_244", 
                 "molid": 244, 
                 "smi": "COc1cccc(-n2nc(C(=O)O)c3c2-c2ccccc2S(=O)(=O)C3)c1"
@@ -1717,6 +1962,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.39, 
                 "id": "mol_245", 
                 "molid": 245, 
                 "smi": "COc1ccc(-n2nc(C(=O)O)c3c2-c2ccccc2S(=O)(=O)C3)cc1"
@@ -1724,6 +1970,7 @@
         }, 
         {
             "data": {
+                "molwt": 341.35, 
                 "id": "mol_246", 
                 "molid": 246, 
                 "smi": "O=C(O)c1nn(-c2ccccn2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1731,6 +1978,7 @@
         }, 
         {
             "data": {
+                "molwt": 369.4, 
                 "id": "mol_247", 
                 "molid": 247, 
                 "smi": "CCOC(=O)c1nn(-c2ccccn2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1738,6 +1986,7 @@
         }, 
         {
             "data": {
+                "molwt": 346.41, 
                 "id": "mol_248", 
                 "molid": 248, 
                 "smi": "O=C(O)c1nn(C2CCCCC2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1745,6 +1994,7 @@
         }, 
         {
             "data": {
+                "molwt": 340.36, 
                 "id": "mol_249", 
                 "molid": 249, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1752,6 +2002,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.46, 
                 "id": "mol_250", 
                 "molid": 250, 
                 "smi": "CCOC(=O)c1nn(C2CCCCC2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1759,6 +2010,7 @@
         }, 
         {
             "data": {
+                "molwt": 368.41, 
                 "id": "mol_251", 
                 "molid": 251, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1766,6 +2018,7 @@
         }, 
         {
             "data": {
+                "molwt": 357.19, 
                 "id": "mol_252", 
                 "molid": 252, 
                 "smi": "Cn1nc(C(=O)O)c2c1-c1cccc(Br)c1S(=O)(=O)C2"
@@ -1773,6 +2026,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.35, 
                 "id": "mol_253", 
                 "molid": 253, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(F)cccc1-2"
@@ -1780,6 +2034,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.35, 
                 "id": "mol_254", 
                 "molid": 254, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1ccc(F)cc1-2"
@@ -1787,6 +2042,7 @@
         }, 
         {
             "data": {
+                "molwt": 419.26, 
                 "id": "mol_255", 
                 "molid": 255, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(Br)cccc1-2"
@@ -1794,6 +2050,7 @@
         }, 
         {
             "data": {
+                "molwt": 353.36, 
                 "id": "mol_256", 
                 "molid": 256, 
                 "smi": "O=C(O)c1nn(-c2ccccc2)c2c1CSc1ccc([N+](=O)[O-])cc1-2"
@@ -1801,6 +2058,7 @@
         }, 
         {
             "data": {
+                "molwt": 354.39, 
                 "id": "mol_257", 
                 "molid": 257, 
                 "smi": "Cc1ccccc1-n1nc(C(=O)O)c2c1-c1ccccc1S(=O)(=O)C2"
@@ -1808,6 +2066,7 @@
         }, 
         {
             "data": {
+                "molwt": 419.26, 
                 "id": "mol_258", 
                 "molid": 258, 
                 "smi": "O=C(O)c1nn(-c2ccccc2Br)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1815,6 +2074,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.35, 
                 "id": "mol_259", 
                 "molid": 259, 
                 "smi": "O=C(O)c1nn(-c2ccccc2F)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1822,6 +2082,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.81, 
                 "id": "mol_260", 
                 "molid": 260, 
                 "smi": "O=C(O)c1nn(-c2ccccc2Cl)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1829,6 +2090,7 @@
         }, 
         {
             "data": {
+                "molwt": 418.45, 
                 "id": "mol_261", 
                 "molid": 261, 
                 "smi": "CS(=O)(=O)c1ccccc1-n1nc(C(=O)O)c2c1-c1ccccc1S(=O)(=O)C2"
@@ -1836,6 +2098,7 @@
         }, 
         {
             "data": {
+                "molwt": 398.4, 
                 "id": "mol_262", 
                 "molid": 262, 
                 "smi": "O=C(O)c1nn(-c2ccc3c(c2)OCCO3)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1843,6 +2106,7 @@
         }, 
         {
             "data": {
+                "molwt": 426.45, 
                 "id": "mol_263", 
                 "molid": 263, 
                 "smi": "CCOC(=O)c1nn(-c2ccc3c(c2)OCCO3)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1850,6 +2114,7 @@
         }, 
         {
             "data": {
+                "molwt": 411.46, 
                 "id": "mol_264", 
                 "molid": 264, 
                 "smi": "Cc1nc2ccc(-n3nc(C(=O)O)c4c3-c3ccccc3S(=O)(=O)C4)cc2s1"
@@ -1857,6 +2122,7 @@
         }, 
         {
             "data": {
+                "molwt": 419.26, 
                 "id": "mol_265", 
                 "molid": 265, 
                 "smi": "O=C(O)c1nn(-c2cccc(Br)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1864,6 +2130,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.81, 
                 "id": "mol_266", 
                 "molid": 266, 
                 "smi": "O=C(O)c1nn(-c2cccc(Cl)c2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1871,6 +2138,7 @@
         }, 
         {
             "data": {
+                "molwt": 419.26, 
                 "id": "mol_267", 
                 "molid": 267, 
                 "smi": "O=C(O)c1nn(-c2ccc(Br)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1878,6 +2146,7 @@
         }, 
         {
             "data": {
+                "molwt": 358.35, 
                 "id": "mol_268", 
                 "molid": 268, 
                 "smi": "O=C(O)c1nn(-c2ccc(F)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1885,6 +2154,7 @@
         }, 
         {
             "data": {
+                "molwt": 374.81, 
                 "id": "mol_269", 
                 "molid": 269, 
                 "smi": "O=C(O)c1nn(-c2ccc(Cl)cc2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1892,6 +2162,7 @@
         }, 
         {
             "data": {
+                "molwt": 382.44, 
                 "id": "mol_270", 
                 "molid": 270, 
                 "smi": "CC(C)c1ccc(-n2nc(C(=O)O)c3c2-c2ccccc2S(=O)(=O)C3)cc1"
@@ -1899,6 +2170,7 @@
         }, 
         {
             "data": {
+                "molwt": 355.38, 
                 "id": "mol_271", 
                 "molid": 271, 
                 "smi": "Cc1ccncc1-n1nc(C(=O)O)c2c1-c1ccccc1S(=O)(=O)C2"
@@ -1906,6 +2178,7 @@
         }, 
         {
             "data": {
+                "molwt": 348.38, 
                 "id": "mol_272", 
                 "molid": 272, 
                 "smi": "O=C(O)c1nn(C2CCOCC2)c2c1CS(=O)(=O)c1ccccc1-2"
@@ -1913,6 +2186,7 @@
         }, 
         {
             "data": {
+                "molwt": 393.42, 
                 "id": "mol_273", 
                 "molid": 273, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c2c1CS(=O)(=O)c1c(C#N)cccc1-2"
@@ -1920,6 +2194,7 @@
         }, 
         {
             "data": {
+                "molwt": 422.47, 
                 "id": "mol_274", 
                 "molid": 274, 
                 "smi": "O=C(c1nn(-c2ccccc2)c2c1CSc1ccc([N+](=O)[O-])cc1-2)N1CCOCC1"
@@ -1927,6 +2202,7 @@
         }, 
         {
             "data": {
+                "molwt": 439.49, 
                 "id": "mol_275", 
                 "molid": 275, 
                 "smi": "O=C(c1nn(-c2ccc(CO)cc2)c2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1"
@@ -1934,6 +2210,7 @@
         }, 
         {
             "data": {
+                "molwt": 441.51, 
                 "id": "mol_276", 
                 "molid": 276, 
                 "smi": "O=C(c1nn(-c2ccc(CO)cc2)c2c1CS(O)(O)c1ccccc1-2)N1CCOCC1"
@@ -1941,6 +2218,7 @@
         }, 
         {
             "data": {
+                "molwt": 519.6, 
                 "id": "mol_277", 
                 "molid": 277, 
                 "smi": "CS(=O)(=O)OCc1cccc(-n2nc(C(=O)N3CCOCC3)c3c2-c2ccccc2S(O)(O)C3)c1"
@@ -1948,6 +2226,7 @@
         }, 
         {
             "data": {
+                "molwt": 517.59, 
                 "id": "mol_278", 
                 "molid": 278, 
                 "smi": "CS(=O)(=O)OCc1cccc(-n2nc(C(=O)N3CCOCC3)c3c2-c2ccccc2S(=O)(=O)C3)c1"
@@ -1955,6 +2234,7 @@
         }, 
         {
             "data": {
+                "molwt": 452.96, 
                 "id": "mol_279", 
                 "molid": 279, 
                 "smi": "Cl.O=C(c1nn(C2CCNCC2)c2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1"
@@ -1962,6 +2242,7 @@
         }, 
         {
             "data": {
+                "molwt": 430.53, 
                 "id": "mol_280", 
                 "molid": 280, 
                 "smi": "Cc1cccc2c1S(=O)(=O)Cc1c(C(=O)N3CCOCC3)nn(C3CCCNC3)c1-2"
@@ -1969,6 +2250,7 @@
         }, 
         {
             "data": {
+                "molwt": 446.53, 
                 "id": "mol_281", 
                 "molid": 281, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)N3CCOCC3)nn(C3CCCNC3)c1-2"
@@ -1976,6 +2258,7 @@
         }, 
         {
             "data": {
+                "molwt": 515.59, 
                 "id": "mol_282", 
                 "molid": 282, 
                 "smi": "O=C(c1nn(-c2cccc(OCc3ccccc3)c2)c2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1"
@@ -1983,6 +2266,7 @@
         }, 
         {
             "data": {
+                "molwt": 488.36, 
                 "id": "mol_283", 
                 "molid": 283, 
                 "smi": "O=C(c1nn(-c2cccc(Br)c2)c2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1"
@@ -1990,6 +2274,7 @@
         }, 
         {
             "data": {
+                "molwt": 352.9, 
                 "id": "mol_284", 
                 "molid": 284, 
                 "smi": "I[Ra]"
@@ -1997,6 +2282,7 @@
         }, 
         {
             "data": {
+                "molwt": 348.9, 
                 "id": "mol_285", 
                 "molid": 285, 
                 "smi": "I[Rn]"
@@ -2004,6 +2290,7 @@
         }, 
         {
             "data": {
+                "molwt": 393.9, 
                 "id": "mol_286", 
                 "molid": 286, 
                 "smi": "I[Rf]"
@@ -2011,6 +2298,7 @@
         }, 
         {
             "data": {
+                "molwt": 323.15, 
                 "id": "mol_287", 
                 "molid": 287, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c(Br)c1C=O"
@@ -2018,6 +2306,7 @@
         }, 
         {
             "data": {
+                "molwt": 325.16, 
                 "id": "mol_288", 
                 "molid": 288, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c(Br)c1CO"
@@ -2025,6 +2314,7 @@
         }, 
         {
             "data": {
+                "molwt": 388.06, 
                 "id": "mol_289", 
                 "molid": 289, 
                 "smi": "CCOC(=O)c1nn(-c2ccccc2)c(Br)c1CBr"
@@ -2032,6 +2322,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.39, 
                 "id": "mol_290", 
                 "molid": 290, 
                 "smi": "COc1cccc2c1S(=O)(=O)Cc1c(C(=O)O)nn(-c3ccccc3)c1-2"
@@ -2039,6 +2330,7 @@
         }, 
         {
             "data": {
+                "molwt": 377.42, 
                 "id": "mol_291", 
                 "molid": 291, 
                 "smi": "COc1cccc2c1S(=O)(=O)Cc1c(C(=O)N3CCOCC3)nn(C)c1-2"
@@ -2046,6 +2338,7 @@
         }, 
         {
             "data": {
+                "molwt": 308.31, 
                 "id": "mol_292", 
                 "molid": 292, 
                 "smi": "COc1cccc2c1S(=O)(=O)Cc1c(C(=O)O)nn(C)c1-2"
@@ -2053,6 +2346,7 @@
         }, 
         {
             "data": {
+                "molwt": 333.37, 
                 "id": "mol_293", 
                 "molid": 293, 
                 "smi": "O=C(c1[nH]nc2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1"
@@ -2060,6 +2354,7 @@
         }, 
         {
             "data": {
+                "molwt": 377.42, 
                 "id": "mol_294", 
                 "molid": 294, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)N3CCOCC3)nn(C)c1-2"
@@ -2067,6 +2362,7 @@
         }, 
         {
             "data": {
+                "molwt": 308.32, 
                 "id": "mol_295", 
                 "molid": 295, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)O)nn(C)c1-2"
@@ -2074,6 +2370,7 @@
         }, 
         {
             "data": {
+                "molwt": 439.49, 
                 "id": "mol_296", 
                 "molid": 296, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)N3CCOCC3)nn(-c3ccccc3)c1-2"
@@ -2081,6 +2378,7 @@
         }, 
         {
             "data": {
+                "molwt": 370.39, 
                 "id": "mol_297", 
                 "molid": 297, 
                 "smi": "COc1ccc2c(c1)S(=O)(=O)Cc1c(C(=O)O)nn(-c3ccccc3)c1-2"
@@ -2088,6 +2386,7 @@
         }, 
         {
             "data": {
+                "molwt": 423.49, 
                 "id": "mol_298", 
                 "molid": 298, 
                 "smi": "Cc1cccc(-n2nc(C(=O)N3CCOCC3)c3c2-c2ccccc2S(=O)(=O)C3)c1"
@@ -2095,6 +2394,7 @@
         }, 
         {
             "data": {
+                "molwt": 423.49, 
                 "id": "mol_299", 
                 "molid": 299, 
                 "smi": "Cc1ccc(-n2nc(C(=O)N3CCOCC3)c3c2-c2ccccc2S(=O)(=O)C3)cc1"

@@ -8,7 +8,7 @@ class Node(object):
     def __init__(self,mol):
         self.mol = mol
     def mw( self ):
-        return Descriptors.MolWt( self.mol )
+        return round( Descriptors.MolWt( self.mol ), 2 )
     def smi( self ):
         return Chem.MolToSmiles( self.mol )
 
@@ -34,7 +34,7 @@ def make_nodes( mols ):
         node = Node( mol )
         smi = node.smi()
         mw = node.mw()
-        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi }}
+        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi, "molwt": mw }}
         nodes.append( data )
     print len(nodes)
     return nodes

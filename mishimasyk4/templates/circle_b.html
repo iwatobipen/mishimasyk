@@ -1,0 +1,95 @@
+{% extends "templ.html" %}
+{% block title %} MISHIMA SYK #4 !! {% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script type=text/javascript src="{{ url_for('static', filename='js/jquery-1.11.1.min.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/arbor.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/cola.adaptor.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/cola.v3.min.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/dagre.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/springy.js')}}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/build/cytoscape.min.js')}}"></script>
+
+
+<script>
+// make network
+var cy = cytoscape({
+  container: document.getElementById('cy'),
+  ready: function(){ console.log('ready') }
+});
+
+$(function(){
+ $("#cy").cytoscape({
+  style: cytoscape.stylesheet()
+    .selector('node')
+      .css({
+        //'content': 'data(molid)',
+        //'text-valign': 'center',
+        'background-color': 'gray',
+        //'text-outline-width': 2,
+        //'text-outline-color': '#888',
+        'width': '15px',
+        'height': '15px'
+      })
+    .selector('edge')
+      .css({
+        'line-color': 'blue',
+        'target-arrow-shape': 'triangle',
+      })
+    .selector(':selected')
+      .css({
+        'background-color': 'black',
+        'line-color': 'black',
+        'target-arrow-color': 'black',
+        'source-arrow-color': 'black',
+        'text-outline-color': 'black'
+      }),
+layout: 
+ { 
+  name: 'circle',
+  fit: true, // whether to fit the viewport to the graph
+  padding: 30, // the padding on fit
+},
+  
+  
+    });
+});
+
+</script>
+<script>
+// load JSON 
+items = []
+$.getJSON(("static/jsondata/mols.json"), function(data){
+  items = data;
+  cy.load(items);
+
+ // insert some events!
+ cy.on('tap', 'node', function(){
+  alert("smiles is "+this.data('smi'));
+  $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
+ });
+});
+</script>
+
+
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+ <div class="row">
+    <h1>Cytoscape JS!</h1></br>
+    <h2><div id="mol_wt"> mol_wt </div></h2></br>
+  <div class="col-md-12"  style='background-color: lightblue; height: 600px'> 
+         <div id="cy"></div>
+
+    
+  </div>
+</div>
+</div>
+ 
+{% endblock %}
+
