@@ -1,7 +1,10 @@
 {% extends "bootstrap/base.html" %}
 {% block title %}{% endblock %}
-
-
+{% block head %}
+{{ super() }}
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+{% endblock %}
 
 {% block navbar %}
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
