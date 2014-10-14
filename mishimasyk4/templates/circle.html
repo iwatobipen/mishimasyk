@@ -11,13 +11,18 @@
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/springy.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/build/cytoscape.min.js')}}"></script>
 
+<script>
+// load JSON 
+items = []
+$.getJSON(("static/jsondata/mols.json"), function(data){
+  items = data;
+  return items;
+});
+</script>
 
 <script>
 // make network
-var cy = cytoscape({
-  container: document.getElementById('cy'),
-  ready: function(){ console.log('ready') }
-});
+
 
 $(function(){
  $("#cy").cytoscape({
@@ -45,36 +50,35 @@ $(function(){
         'source-arrow-color': 'black',
         'text-outline-color': 'black'
       }),
-
-   ready: function(){
+  layout:{
+　　　　　  name: 'circle',
+　　　　　
+　　　　　  fit: true, // whether to fit the viewport to the graph
+　　　　　  padding: 30, // the padding on fit
+　　　　　  boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
+　　　　　  avoidOverlap: true, // prevents node overlap, may overflow boundingBox and radius if not enough space
+　　　　　  radius: undefined, // the radius of the circle
+　　　　　  startAngle: 3/2 * Math.PI, // the position of the first node
+ 　　　　　 counterclockwise: false, // whether the layout should go counterclockwise (true) or clockwise (false)
+ 　　　　　 animate: false, // whether to transition the node positions
+ 　　　　　 animationDuration: 500, // duration of animation in ms if enabled
+ 　　　　　 ready: undefined, // callback on layoutready
+ 　　　　　 stop: undefined // callback on layoutstop
+        },
+  ready: function(){
+    // this refer cy
+    console.log("ready2");
     window.cy = this;
-},
-    });
-});
-
+        cy.load(items);
+    // insert some events!
+        cy.on('tap', 'node', function(){
+      alert("smiles is "+this.data('smi'));
+      $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
+      });
+    },
+    }); //cytoscape
+}); //function
 </script>
-<script>
-// load JSON 
-items = []
-$.getJSON(("static/jsondata/mols.json"), function(data){
-  items = data;
-  cy.load(items);
-  cy.layout(
- { 
-  name: 'circle',
-  fit: true, // whether to fit the viewport to the graph
-  padding: 30, // the padding on fit
-}
-  );
- // insert some events!
- cy.on('tap', 'node', function(){
-  alert("smiles is "+this.data('smi'));
-  $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
- });
-});
-</script>
-
-
 
 {% endblock %}
 

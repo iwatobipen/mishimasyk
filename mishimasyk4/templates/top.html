@@ -11,13 +11,18 @@
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/lib/springy.js')}}"></script>
 <script type=text/javascript src="{{ url_for('static', filename='js/cytoscape.js-2.3.3/build/cytoscape.min.js')}}"></script>
 
+<script>
+// load JSON 
+items = []
+$.getJSON(("static/jsondata/mols.json"), function(data){
+  items = data;
+  return items;
+});
+</script>
 
 <script>
 // make network
-var cy = cytoscape({
-  container: document.getElementById('cy'),
-  ready: function(){ console.log('ready') }
-});
+
 
 $(function(){
  $("#cy").cytoscape({
@@ -45,34 +50,31 @@ $(function(){
         'source-arrow-color': 'black',
         'text-outline-color': 'black'
       }),
-
+  layout:{
+         name: 'random',
+       
+         fit: true, // whether to fit to viewport
+         padding: 30, // fit padding
+         boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
+         animate: false, // whether to transition the node positions
+         animationDuration: 500, // duration of animation in ms if enabled
+         ready: undefined, // callback on layoutready
+         stop: undefined // callback on layoutstop
+        },
    ready: function(){
+    // this refer cy
+    console.log("ready2");
     window.cy = this;
-},
-    });
-});
-
+        cy.load(items);
+    // insert some events!
+        cy.on('tap', 'node', function(){
+      alert("smiles is "+this.data('smi'));
+      $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
+      });
+    },
+    }); //cytoscape
+}); //function
 </script>
-<script>
-// load JSON 
-items = []
-$.getJSON(("static/jsondata/mols.json"), function(data){
-  items = data;
-  cy.load(items);
-  cy.layout(
- { 
-   name: 'random'
- }
-  );
- // insert some events!
- cy.on('tap', 'node', function(){
-  alert("smiles is "+this.data('smi'));
-  $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
- });
-});
-</script>
-
-
 
 {% endblock %}
 
