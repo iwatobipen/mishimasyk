@@ -27,35 +27,38 @@ class Edge(object):
         return tc
 
 
-def make_nodes( mols ):
+def make_nodes( mols , degrees):
     nodes = []
     for i, mol in enumerate( mols[:300] ):
         molid = i
         node = Node( mol )
         smi = node.smi()
         mw = node.mw()
-        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi, "molwt": mw }}
+        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi, "molwt": mw, "degree": degrees["mol_"+str(i)] }}
         nodes.append( data )
-    print len(nodes)
     return nodes
 
 def make_edges( mols, cutoff=0.80 ):
     edges = []
+    degrees = {}
     for i in range( len( mols[:300] )):
         for j in range( i ):
             edge = Edge(mols[i], mols[j])
+            degrees.setdefault("mol_"+str(i),1)
+            degrees.setdefault("mol_"+str(j),1)
             if edge.sim() >= cutoff and edge.sim() < 1.0:
                 #print edge.sim()
+                degrees[ "mol_"+str(i) ] += 1
+                degrees[ "mol_"+str(j) ] += 1
                 data = { "data": { "id":str(i)+">>"+str(j),"similarity": edge.sim() ,"source": "mol_"+str(i), "target": "mol_"+str(j) }}
                 edges.append( data )
-    return edges
-
+    return edges, degrees
 
     
 if __name__=="__main__":
     mols = [mol for mol in Chem.SDMolSupplier(sys.argv[1]) ]
-    nodes = make_nodes( mols )
-    edges = make_edges( mols, cutoff = 0.75 )
+    edges, degrees = make_edges( mols, cutoff = 0.75 )
+    nodes = make_nodes( mols , degrees )
     data = { "nodes":nodes, "edges":edges}
     f = open("../static/jsondata/mols.json","w")
     f.write(json.dumps(data, indent=4))
