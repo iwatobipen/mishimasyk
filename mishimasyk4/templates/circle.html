@@ -34,8 +34,8 @@ $(function(){
         'background-color': 'gray',
         //'text-outline-width': 2,
         //'text-outline-color': '#888',
-        'width': '15px',
-        'height': '15px'
+        'width': 'mapData(degree,1,10,10,50)',
+        'height': 'mapData(degree,1,10,10,50)'
       })
     .selector('edge')
       .css({
@@ -54,7 +54,7 @@ $(function(){
 　　　　　  name: 'circle',
 　　　　　
 　　　　　  fit: true, // whether to fit the viewport to the graph
-　　　　　  padding: 30, // the padding on fit
+　　　　　  padding: 3, // the padding on fit
 　　　　　  boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
 　　　　　  avoidOverlap: true, // prevents node overlap, may overflow boundingBox and radius if not enough space
 　　　　　  radius: undefined, // the radius of the circle
