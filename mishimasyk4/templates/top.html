@@ -26,6 +26,17 @@ $.getJSON(("static/jsondata/mols.json"), function(data){
 
 $(function(){
  $("#cy").cytoscape({
+  ready: function(){
+    // this refer cy
+    console.log("ready2");
+    window.cy = this;
+        this.load(items);
+    // insert some events!
+        cy.on('tap', 'node', function(){
+      alert("smiles is "+this.data('smi'));
+      $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
+      });
+    },
   style: cytoscape.stylesheet()
     .selector('node')
       .css({
@@ -61,17 +72,7 @@ $(function(){
          ready: undefined, // callback on layoutready
          stop: undefined // callback on layoutstop
         },
-   ready: function(){
-    // this refer cy
-    console.log("ready2");
-    window.cy = this;
-        cy.load(items);
-    // insert some events!
-        cy.on('tap', 'node', function(){
-      alert("smiles is "+this.data('smi'));
-      $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
-      });
-    },
+
     }); //cytoscape
 }); //function
 </script>

@@ -33,7 +33,7 @@ $(function(){
         //'text-valign': 'center',
         'background-color': 'gray',
 	'border-color' : 'black',
-        'border-width' : 3
+        'border-width' : 3,
         //'text-outline-width': 2,
         //'text-outline-color': '#888',
         'width': 'mapData(degree,1,10,10,50)',
@@ -89,17 +89,18 @@ $(function(){
            // infinite layout options
            infinite: false // overrides all other options for a forces-all-the-time mode
         },
-   ready: function(){
+    ready: function(){
     // this refer cy
     console.log("ready2");
     window.cy = this;
-        cy.load(items);
-    // insert some events!
+        // insert some events!
+        cy.load(items)
         cy.on('tap', 'node', function(){
       alert("smiles is "+this.data('smi'));
       $('#mol_wt').text("mol_wt is; "+this.data('molwt'));
       });
     },
+
     }); //cytoscape
 }); //function
 </script>
@@ -115,8 +116,6 @@ $(function(){
     <h2><div id="mol_wt"> mol_wt </div></h2></br>
   <div class="col-md-12"  style='background-color: lightblue; height: 600px'> 
          <div id="cy"></div>
-
-    
   </div>
 </div>
 </div>

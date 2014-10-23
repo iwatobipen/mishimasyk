@@ -92,7 +92,7 @@ $(function(){
     // this refer cy
     console.log("ready2");
     window.cy = this;
-        cy.load(items);
+        this.load(items);
     // insert some events!
         cy.on('tap', 'node', function(){
       alert("smiles is "+this.data('smi'));
