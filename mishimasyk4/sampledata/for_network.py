@@ -2,7 +2,9 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 from rdkit.Chem import AllChem
 from rdkit.Chem import DataStructs
-import json, sys
+import json, sys, urllib2
+
+
 
 class Node(object):
     def __init__(self,mol):
@@ -34,7 +36,13 @@ def make_nodes( mols , degrees):
         node = Node( mol )
         smi = node.smi()
         mw = node.mw()
-        data = { "data" : { "id":"mol_"+str(molid), "molid":molid, "smi": smi, "molwt": mw, "degree": degrees["mol_"+str(i)] }}
+        href = "http://cactus.nci.nih.gov/chemical/structure/%s/image" % urllib2.quote( smi )
+        data = { "data" : { "id":"mol_"+str(molid), 
+                            "molid":molid, "smi": smi,
+                            "molwt": mw,
+                            "degree": degrees["mol_"+str(i)],
+                            "href": href }
+                            }
         nodes.append( data )
     return nodes
 
