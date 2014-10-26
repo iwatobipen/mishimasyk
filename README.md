@@ -1,11 +1,11 @@
 mishimasyk
 ==========
 
-`mishimasyk` is sample data set for mishimasyk.
+- mishimasyk is sample data set for mishimasyk.
 
 Requirements
 ------------
-* Python 2.7 or later (not support 3.x)
+* Python 2.7x
 * Flask and Flask-Bootstrap
 * RDKit (if you want make net work from sdf.)
 
@@ -13,6 +13,6 @@ Requirements
 Setup
 -----
 
- unextract zip archive or clone.
- change directry mishimask4.
- from terminal run app.py.
+- unextract zip archive or clone.
+- change directry mishimask4.
+- from terminal run app.py.
