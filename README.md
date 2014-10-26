@@ -13,6 +13,6 @@ Requirements
 Setup
 -----
 
-unextract zip archive or clone.
-change directry mishimask4.
-from terminal run app.py.
+ unextract zip archive or clone.
+ change directry mishimask4.
+ from terminal run app.py.
