@@ -11,7 +11,7 @@ def toppage():
 
 @app.route('/plot/')
 def scatterplot():
-    return render_template('scatterplot.html')
+    return render_template('toppage_v2.html')
 
 if __name__ == '__main__':
     app.run(debug = True)

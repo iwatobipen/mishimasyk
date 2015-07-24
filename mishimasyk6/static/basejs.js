@@ -1,6 +1,6 @@
 // var RDKit = rdk();
 var padding = 30;
-var h = 200;
+var h = 300;
 var w = 500;
 function  calc_mw_fsp3( smi ){
     var mol = RDKit.Molecule.fromSmiles( smi );
@@ -71,7 +71,7 @@ function darwchart( smiles_data ){
                          return yScale(d["fr_sp3"]);
                          })
       .attr("r", 5)
-      .attr("fill", "magenta")
+      .attr("fill", "skyblue")
       .on("mouseover", function(d){
                          return moldraw(d["smi"]);
                        })
