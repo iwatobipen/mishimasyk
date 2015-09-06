@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>test web page</title>
+	<link href={{ url_for("static", filename="js/FooTable-2/css/footable.core.min.css")}} rel="stylesheet" type="text/css" />
+	
+    <link href={{ url_for("static", filename="js/FooTable-2/css/footable.standalone.min.css")}} rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src={{url_for("static", filename="js/jquery-2.1.4.min.js")}}></script>
+	<script type="text/javascript" src={{url_for("static", filename="js/FooTable-2/js/footable.js")}}></script>
+	<script type="text/javascript" src={{url_for("static", filename="js/FooTable-2/js/footable.sort.js")}}></script>
+	<script type="text/javascript" src={{url_for("static", filename="js/FooTable-2/js/footable.paginate.js")}}></script>
+	<script type="text/javascript">
+	$(function(){
+		$("td.pair_id").mouseover(function(){
+			var url = "/_draw/"+this.textContent;
+			$.ajax({
+				type:"GET",
+				url: url,
+				datatype:"json",
+				contentType:"application/json; charset=utf-8",
+				success: function(json){
+					$("#moll").html(json.ml);
+					$("#molr").html(json.mr);
+
+				}
+			});
+		});
+	});
+	</script>
+
+</head>
+
+<script>
+</script>
+
+
+<body>
+<div style="float:left;width:400px">
+	pair_ID<br>
+	<table class="footable" data-page-size="5">
+	<thead><tr>
+	<th data-type="numeric">IDL</th>
+	<th>IDR</th>
+	<th>PAIRID</th>
+	</tr></thead>
+	<tbody>
+	{% for row in data %}
+	<tr><td>{{row['idl']}}</td><td>{{row['idr']}}</td><td class='pair_id'>{{row['pairid']}}</td></tr>
+	{% endfor %}
+    </tbody>
+    <tfoot>
+						<tr>
+							<td colspan="5">
+								<div class="pagination pagination-centered"></div>
+							</td>
+						</tr>
+					</tfoot>
+	</table>
+</div>
+<div style="float:left;" >
+<p>MOLPAIR</p>
+<table name="pair_table" border=1>
+<tr><th>MOL_L</th><th>MOL_R</th></tr>
+<tr style="height:200px"><td style="width:300px;" id="moll">MOL</td><td style="width:300px;" id="molr">MOR</td></tr>
+</table>
+</div>
+<script type="text/javascript">
+	$(function () {
+		$('.footable').footable();
+	});
+</script>
+
+</body>
+
+</html>
