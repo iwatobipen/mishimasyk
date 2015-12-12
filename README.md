@@ -5,7 +5,7 @@ mishimasyk
 
 Requirements
 ------------
-* Python 2.7x
+* Python 2.7x or 3.x
 * Flask and Flask-Bootstrap
 * RDKit (if you want make net work from sdf.)
 
