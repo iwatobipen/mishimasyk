@@ -1,25 +1,20 @@
-==============================
-Hans on sample for mishimasyk
-==============================
+# Hans on sample for mishimasyk
 
 
-Author: iwatobipen
-==================
-
-Data From Kaggle
-=================
+## Author: iwatobipen
 
 
-Require ments
-==============
+## Data From Kaggle
+
+
+## Require ments
 
 - python3.x / I recommned install from anaconda.
 - keras
 - ( rdkit )
 
 
-Files
-======
+## Files
 
 - kaggle_bi.zip/dataset
 - keras-iris.ipynb/almost done
