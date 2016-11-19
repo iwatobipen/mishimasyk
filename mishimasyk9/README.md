@@ -7,7 +7,7 @@
 ## Data From Kaggle
 
 
-## Require ments
+## Requirements
 
 - python3.x / I recommned install from anaconda.
 - keras
